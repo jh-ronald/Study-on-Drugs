@@ -11,4 +11,4 @@ library(data.table)
 temp <- read_csv(dl, show_col_types = "FALSE")
 drugs <- data.table(temp)
 
-col_class <- data.frame(sapply(drugs, class))
+class <- sapply(drugs, class)
